@@ -18,9 +18,9 @@ z-index: 1;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg,rgba(0,0,0,0.2) 0%,
+    background: linear-gradient(180deg,rgba(0,0,0,0.8) 0%,
     rgba(0,0,0,0.6) 100%
-    ),linear-gradient(180deg,rgba(0,0,0,0.2) 0%,
+    ),linear-gradient(180deg,rgba(0,0,0,0.6) 0%,
     transparent 100%);
     z-index: 2;
 
@@ -45,7 +45,9 @@ width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
+object-position: 75%;
 background:#232a34 ;
+
 
 `
 export const HeroContent = styled.div`
@@ -62,6 +64,7 @@ export const HeroH1 = styled.h1`
  color:  #fff;
  font-size: 48px;
  text-align: center;
+ padding: 20px;
 
  @media screen and (max-width: 760px) {
      font-size: 40px
@@ -76,6 +79,7 @@ export const HeroP = styled.p`
  font-size: 24px;
  text-align: center;
  max-width: 600px;
+ margin-bottom: 20px;
  @media screen and (max-width: 760px) {
      font-size: 24px
  }

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS}  from 'react-scroll'
+import {SiFiverr} from "react-icons/si"
 
 export const Nav=styled.nav`
  background:${({scrollNav})=>(scrollNav?'#000':'transparent')};
@@ -106,7 +107,7 @@ border-radius: 50px;
 background:#01bf71;
 white-space: nowrap;
 padding: 10px 22px;
-color: #010606;
+color: #fff;
 font-size: 16px;
 outline: none;
 border: none;
@@ -121,10 +122,10 @@ z-index: 10;
     color: #010606;
 }
 `
-export const Img = styled.img`
+export const SiFiver = styled(SiFiverr)`
     
 
-max-width: 130px;
+font-size: 3rem;
 
 
 

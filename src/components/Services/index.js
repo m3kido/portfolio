@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
      <ServicesContainer id='services'>
-         <ServicesH1>Our Services</ServicesH1>
+         <ServicesH1>My Projects</ServicesH1>
          <ServicesWrapper>
              <ServicesCard>
                  <ServicesIcon src={Icon1}/>

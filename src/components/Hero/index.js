@@ -19,17 +19,16 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
           <HeroH1>
-              Virtual Banking Made Easy
+              Have the full Best Web Experience
           </HeroH1>
           <HeroP>
-              Sign up for a new account today and reciece $250 in 
-              credit towards your next payment
+              Let me design and build your million dollars idea's Website
           </HeroP>
           <HeroBtnWrapper>
               <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
-              primary="true" dark='true'
+              primary="true" dark='true'  fontbig="true"
               >
-                  Get Started {hover ?<ArrowForward/>:<ArrowRight/>}
+                  Hire Me ! {hover ?<ArrowForward/>:<ArrowRight/>}
               </Button>
           </HeroBtnWrapper>
       </HeroContent>

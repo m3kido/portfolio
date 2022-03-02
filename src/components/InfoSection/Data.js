@@ -6,10 +6,11 @@ export const homeObjOne={
     lightBg:false,
     lightText:true,
     lightTextDesc:true,
-    topLine:"Premium Bank",
-    headline:'Unlimited Transactions with zero fees',
-    description:'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.'
-    ,buttonLabel:"Get started",
+    topLine:"aesthetic",
+    headline:'<M3Kido>',
+    headline2:'</M3kido>',
+    description:'Hi,Im Meliouh Mahdi also known as M3kido and I am a Websites developer located in Algeria.I am currently on front-end but I am more interested in becoming a full-stack developer.Check out my Projects ! '
+    ,buttonLabel:"Contact Me",
     imgStart:false,
     img:require('../../images/svg-2.svg'),
     alt:"Car",
@@ -22,9 +23,10 @@ export const homeObjTwo={
     lightBg:true,
     lightText:false,
     lightTextDesc:false,
-    topLine:"Unlimied Access",
-    headline:'Unlimited Transactions with zero fees',
-    description:'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.'
+    topLine:"Unlimited Access",
+    headline:'What I can do',
+    headline2:'',
+    description:'I will design and develop a professional website for your business that is both beautifully designed and well functioning using modern technologies '
     ,buttonLabel:"Get started",
     imgStart:true,
     img:require('../../images/svg-3.svg'),
@@ -38,9 +40,10 @@ export const homeObjThree={
     lightBg:true,
     lightText:false,
     lightTextDesc:false,
-    topLine:"Premium Bank",
-    headline:'Unlimited Transactions with zero fees',
-    description:'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.'
+    topLine:"Gifted",
+    headline:'My skills',
+    headline2:'',
+    description:'dummy text'
     ,buttonLabel:"Get started",
     imgStart:false,
     img:require('../../images/svg-1.svg'),

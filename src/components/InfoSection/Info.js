@@ -51,13 +51,29 @@ padding-bottom: 60px;
 `
 
 export const TopLine=styled.p`
-color: #01bf71;
+
+
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
+padding: 0;
 letter-spacing: 1.4px;
+
 text-transform: uppercase;
 margin-bottom: 16px;
+background-image:linear-gradient(45deg,#845ec2,#d65db1,#ff6f91,#ff9671,#f9f871);
+-webkit-background-clip: text;
+color: transparent;
+background-size: 400%;
+animation: bg-animation 3s infinite alternate;
+@keyframes bg-animation {
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
 `
 
 export const Heading = styled.h1`
@@ -74,8 +90,8 @@ export const Heading = styled.h1`
 export const SubTitle=styled.p`
  max-width: 440px;
  margin-bottom: 35px;
- font-size: 18px;
- line-height: 24px;
+ font-size: 22px;
+ line-height: 28px;
  color: ${({darkText})=>(darkText ?"#010606":"#fff")};
 `
 export const BtnWrap = styled.div`

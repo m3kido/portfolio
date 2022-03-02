@@ -8,6 +8,10 @@ white-space: nowrap;
 padding: ${({big})=>(big?"14px 48px":"12px 30px")};
 color: ${({dark})=>(dark?"#010606":"#fff")};
 font-size: ${({fontbig})=>(fontbig?"20px":"16px")};
+font-weight:${({fontbold})=>(fontbold?"bold":"500")}; ;
+
+
+
 outline: none;
 border: none;
 cursor: pointer;
