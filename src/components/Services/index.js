@@ -14,17 +14,17 @@ const Services = () => {
              <ServicesCard>
                  <ServicesIcon src={Icon1}/>
                  <ServicesH2>Reduce expenses</ServicesH2>
-                 <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+                 <ServicesP>Nullam imperdiet quis turpis eget eleifend. Praesent sodales venenatis tellus at malesuada.</ServicesP>
              </ServicesCard>
              <ServicesCard>
                  <ServicesIcon src={Icon2}/>
                  <ServicesH2>Create Designs</ServicesH2>
-                 <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+                 <ServicesP>Nullam imperdiet quis turpis eget eleifend. Praesent sodales venenatis tellus at malesuada. </ServicesP>
              </ServicesCard>
              <ServicesCard>
                  <ServicesIcon src={Icon3}/>
                  <ServicesH2>Web Apps</ServicesH2>
-                 <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+                 <ServicesP>Nullam imperdiet quis turpis eget eleifend. Praesent sodales venenatis tellus at malesuada.</ServicesP>
              </ServicesCard>
          </ServicesWrapper>
      </ServicesContainer>

@@ -43,7 +43,7 @@ export const homeObjThree={
     topLine:"Gifted",
     headline:'My skills',
     headline2:'',
-    description:'dummy text'
+    description:'Praesent sodales venenatis tellus at malesuada. Nulla pellentesque odio ac erat maximus, vitae scelerisque massa tristique. Morbi aliquam quam vitae ante tincidunt finibus. Morbi sollicitudin est vel erat rutrum, vitae ultrices metus fringilla.'
     ,buttonLabel:"Get started",
     imgStart:false,
     img:require('../../images/svg-1.svg'),

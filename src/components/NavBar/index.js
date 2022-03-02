@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll/modules'
 
 import { Nav,NavBarContainer,NavLogo,NavItem,NavMenu
-  ,NavLinks,MobileIcon,NavBtn,NavBtnLink,SiFiver } from './NavBarElements'
+  ,NavLinks,MobileIcon,NavBtn,NavBtnLink } from './NavBarElements'
 
 const NavBar = ({toggle}) => {
   const [scrollNav,setScrollNav]=useState(false)
@@ -51,7 +51,7 @@ const NavBar = ({toggle}) => {
                 </NavItem>
               </NavMenu>
               <NavBtn>
-                <NavBtnLink to="/signin">Resume</NavBtnLink>
+                <NavBtnLink to="/resume">Resume</NavBtnLink>
 
               </NavBtn>
               
